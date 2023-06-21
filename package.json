@@ -3,6 +3,10 @@
   "displayName": "astro-snippets",
   "description": "Code snippets for apps using the astro.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enspyrco/astro-snippets"
+  },
   "engines": {
     "vscode": "^1.79.0"
   },
