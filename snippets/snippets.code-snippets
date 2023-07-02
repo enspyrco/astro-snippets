@@ -2,7 +2,7 @@
   "astro away mission": {
     "prefix": "astro_mission(away)",
     "body": [
-      "import 'package:astro_types/core_types.dart';",
+      "import 'package:types_for_perception/core_types.dart';",
       "",
       "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} extends AwayMission<AppState> {",
       "\tconst ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}();",
@@ -22,7 +22,7 @@
   "astro landing mission": {
     "prefix": "astro_mission(landing)",
     "body": [
-      "import 'package:astro_types/core_types.dart';",
+      "import 'package:types_for_perception/core_types.dart';",
       "",
       "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} extends LandingMission<AppState> {",
       "\tconst ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}();",
@@ -42,8 +42,8 @@
   "astro route - page": {
     "prefix": "astro_route(page)",
     "body": [
-      "import 'package:astro_navigation/astro_navigation.dart';",
-      "import 'package:astro_types/state_types.dart';",
+      "import 'package:navigation_for_perception/navigation_for_perception.dart';",
+      "import 'package:types_for_perception/state_types.dart';",
       "import 'package:flutter/material.dart';",
       "",
       "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Page<T extends AstroState> extends MaterialPage {",
@@ -68,8 +68,8 @@
   "astro route - page state": {
     "prefix": "astro_route(page_state)",
     "body": [
-      "import 'package:astro_types/navigation_types.dart';",
-      "import 'package:astro_types/state_types.dart';",
+      "import 'package:types_for_perception/navigation_types.dart';",
+      "import 'package:types_for_perception/state_types.dart';",
       "",
       "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}PageState<T extends AstroState> implements PageState, AstroState {",
       "\tconst ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}PageState();",
@@ -86,8 +86,8 @@
   "astro state": {
     "prefix": "astro_state",
     "body": [
-      "import 'package:astro_types/astro_annotations.dart';",
-      "import 'package:astro_types/state_types.dart';",
+      "import 'package:types_for_perception/astro_annotations.dart';",
+      "import 'package:types_for_perception/state_types.dart';",
       "",
       "part '${TM_FILENAME_BASE}.g.dart';",
       "",
@@ -109,7 +109,7 @@
   "astro plugin state interface": {
     "prefix": "astro_plugin_state_interface",
     "body": [
-      "import 'package:astro_types/state_types.dart';",
+      "import 'package:types_for_perception/state_types.dart';",
       "",
       "abstract class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} implements AstroState {",
       "\t$1 get $2",
@@ -126,7 +126,7 @@
   "astro plugin state part": {
     "prefix": "astro_plugin_state_part",
     "body": [
-      "import 'package:astro_types/state_types.dart';",
+      "import 'package:types_for_perception/state_types.dart';",
       "",
       "part '${TM_FILENAME_BASE}.g.dart';",
       "",
