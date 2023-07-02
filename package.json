@@ -1,11 +1,11 @@
 {
-  "name": "astro-snippets",
-  "displayName": "astro-snippets",
-  "description": "Code snippets for apps using the astro.",
+  "name": "snippets-for-perception",
+  "displayName": "snippets-for-perception",
+  "description": "Code snippets for apps using the perception.",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/enspyrco/astro-snippets"
+    "url": "https://github.com/enspyrco/snippets-for-perception"
   },
   "engines": {
     "vscode": "^1.79.0"

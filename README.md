@@ -1,4 +1,4 @@
-# astro-snippets
+# snippets-for-perception
 
 ## Snippets
 
@@ -21,10 +21,10 @@
 ### By cloning the repo
 
 ```sh
-git clone https://github.com/enspyrco/astro-snippets
+git clone https://github.com/enspyrco/snippets-for-perception
 ```
 
-* move the resulting `astro-snippets` folder into the `<user home>/.vscode/extensions` folder
+* move the resulting `snippets-for-perception` folder into the `<user home>/.vscode/extensions` folder
 * restart VS Code
 
 ### TODO: publish the extension
